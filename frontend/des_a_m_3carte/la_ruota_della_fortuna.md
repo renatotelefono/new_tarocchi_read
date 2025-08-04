@@ -1,20 +1,24 @@
 # La Ruota della Fortuna (10)
 
-Rappresenta cambiamento e cicli della vita. Simboleggia opportunità e svolte inattese.
+La Ruota della Fortuna è la carta del destino, dei cicli e dei cambiamenti inevitabili. Simboleggia il movimento costante della vita, dove periodi di crescita e di sfida si alternano come le stagioni. È l’archetipo delle svolte inaspettate e delle opportunità che si presentano quando meno te lo aspetti.  
+Quando questa carta appare, suggerisce che stai entrando in una fase di trasformazione: gli eventi esterni possono cambiare improvvisamente, portando occasioni o ostacoli. La Ruota della Fortuna ricorda che tutto è ciclico e che imparare ad adattarsi ai mutamenti è la chiave per progredire.
 
 ---
 
 ## Significato nel Passato  
-Quando questa carta appare nella posizione del passato, indica un periodo della tua vita in cui l'energia di questo Arcano ha avuto un ruolo determinante. Potresti ricordare decisioni impulsive, occasioni colte al volo o momenti di profonda trasformazione. Questo evento passato può aver aperto nuove strade, portato insegnamenti o anche conseguenze inattese. Spesso suggerisce di riflettere su ciò che hai imparato da quel periodo, perché il suo impatto influenza ancora il presente.
+Quando La Ruota della Fortuna appare nella posizione del passato, richiama momenti in cui la tua vita ha subito cambiamenti importanti e spesso improvvisi. Potresti ricordare eventi che hanno stravolto piani o certezze, portando però a nuove direzioni o opportunità inaspettate.  
+Questo passato insegna che l’adattabilità e la fiducia nel flusso della vita sono state fondamentali per superare le sfide e che ogni cambiamento, anche inatteso, ha contribuito alla tua crescita personale.
 
 ---
 
 ## Significato nel Presente  
-Nel presente, questa carta ti invita a osservare attentamente le forze che agiscono ora nella tua vita. Può indicare un nuovo inizio, una scelta da compiere o una fase di crescita personale. Ti sprona a seguire l'istinto e a riconoscere i segnali intorno a te. Allo stesso tempo, mette in guardia dai rischi dell'impulsività, invitando a bilanciare entusiasmo e prudenza. È un richiamo ad agire con consapevolezza, senza lasciarsi bloccare dalla paura.
+Nel presente, La Ruota della Fortuna indica che ti trovi in un momento di transizione, in cui gli eventi possono evolvere rapidamente. Questa carta ti invita a cogliere le opportunità quando si presentano e a non temere i cambiamenti che sfuggono al tuo controllo.  
+Riconoscere il potere del destino non significa rimanere passivi, ma accettare che alcune forze più grandi di te stanno muovendo la tua vita verso nuove direzioni. Agire con flessibilità e fiducia ti permetterà di trasformare questa fase in un’occasione di crescita.
 
 ---
 
 ## Significato nel Futuro  
-Quando appare nel futuro, questa carta preannuncia sviluppi significativi o eventi inattesi. Può trattarsi di un'opportunità di cambiamento, di una svolta imprevista o di una fase di liberazione da vecchi schemi. Indica che il futuro ti offrirà la possibilità di crescere ed evolvere, a patto di accogliere l'imprevisto con fiducia. Preparati a muoverti verso nuove esperienze, riconoscendo che ogni passo fuori dalla zona di comfort porta a un'evoluzione interiore.
+Quando La Ruota della Fortuna appare nella posizione del futuro, preannuncia una svolta significativa, un cambiamento improvviso o l’arrivo di opportunità inattese. Il futuro sarà segnato dal movimento, dalla possibilità di chiudere cicli vecchi e di aprirne di nuovi.  
+Il consiglio di questa carta è di restare aperto alle novità e di non opporsi al cambiamento: la capacità di adattarsi e di cogliere il momento giusto sarà fondamentale per trasformare gli eventi in occasioni di successo e realizzazione personale.
 
 ---

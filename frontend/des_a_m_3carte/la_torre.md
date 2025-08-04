@@ -1,20 +1,24 @@
 # La Torre (16)
 
-Simbolo di crollo e rivelazione. Rappresenta eventi improvvisi che distruggono vecchie certezze per fare spazio al nuovo.
+La Torre è la carta dei crolli improvvisi, delle rivelazioni e delle trasformazioni radicali. Simboleggia la rottura di strutture ormai instabili, di illusioni o di situazioni costruite su basi fragili. È l’archetipo della liberazione forzata, che, pur apparendo improvvisa e sconvolgente, apre la strada a una nuova verità e a un rinnovamento profondo.  
+Quando questa carta appare, segnala un momento di cambiamento drastico, spesso inatteso, che porta con sé la possibilità di liberarsi da ciò che non serve più.
 
 ---
 
 ## Significato nel Passato  
-Quando questa carta appare nella posizione del passato, indica un periodo della tua vita in cui l'energia di questo Arcano ha avuto un ruolo determinante. Potresti ricordare decisioni impulsive, occasioni colte al volo o momenti di profonda trasformazione. Questo evento passato può aver aperto nuove strade, portato insegnamenti o anche conseguenze inattese. Spesso suggerisce di riflettere su ciò che hai imparato da quel periodo, perché il suo impatto influenza ancora il presente.
+Quando La Torre appare nella posizione del passato, richiama momenti in cui la tua vita è stata scossa da eventi improvvisi e destabilizzanti. Potresti ricordare la fine di una relazione, un cambiamento radicale o una situazione in cui certezze consolidate sono crollate.  
+Questo passato ti ha insegnato l’importanza di ricostruire su basi solide e autentiche, ricordandoti che anche le crisi più dolorose possono portare a una rinascita e a una nuova consapevolezza.
 
 ---
 
 ## Significato nel Presente  
-Nel presente, questa carta ti invita a osservare attentamente le forze che agiscono ora nella tua vita. Può indicare un nuovo inizio, una scelta da compiere o una fase di crescita personale. Ti sprona a seguire l'istinto e a riconoscere i segnali intorno a te. Allo stesso tempo, mette in guardia dai rischi dell'impulsività, invitando a bilanciare entusiasmo e prudenza. È un richiamo ad agire con consapevolezza, senza lasciarsi bloccare dalla paura.
+Nel presente, La Torre indica che stai attraversando o stai per affrontare un momento di trasformazione radicale. Può trattarsi di un cambiamento improvviso, di una verità che emerge o di una rottura necessaria per progredire.  
+Questa carta invita ad accogliere il cambiamento come un’opportunità di liberazione, anche se inizialmente può sembrare destabilizzante. Accettare ciò che cade permette di creare spazio per nuove fondamenta più solide e autentiche.
 
 ---
 
 ## Significato nel Futuro  
-Quando appare nel futuro, questa carta preannuncia sviluppi significativi o eventi inattesi. Può trattarsi di un'opportunità di cambiamento, di una svolta imprevista o di una fase di liberazione da vecchi schemi. Indica che il futuro ti offrirà la possibilità di crescere ed evolvere, a patto di accogliere l'imprevisto con fiducia. Preparati a muoverti verso nuove esperienze, riconoscendo che ogni passo fuori dalla zona di comfort porta a un'evoluzione interiore.
+Quando La Torre appare nella posizione del futuro, preannuncia eventi che porteranno a un cambiamento drastico o alla rivelazione di verità nascoste. Anche se il processo può essere turbolento, il crollo di vecchie strutture aprirà la strada a nuove possibilità.  
+Il futuro della Torre suggerisce di prepararsi alla trasformazione con coraggio, ricordando che solo liberandosi di ciò che non serve più si può costruire una vita più stabile e autentica.
 
 ---

@@ -1,20 +1,24 @@
-# Le Stelle (17)
+# La Stella (17)
 
-Carta di speranza, ispirazione e serenità. Invita a credere nei propri sogni e ad avere fiducia nell’universo.
+La Stella è la carta della speranza, della guarigione e dell’ispirazione. Simboleggia la fiducia nella vita e la serenità che segue un periodo difficile. È l’archetipo della luce guida interiore, che illumina il cammino e invita a ritrovare ottimismo e armonia.  
+Quando questa carta appare, segnala un momento di rinnovamento spirituale, di chiarezza e di connessione con la propria autenticità. La Stella ricorda che dopo le tempeste torna sempre la calma e che la fiducia nel futuro è la chiave per la rinascita.
 
 ---
 
 ## Significato nel Passato  
-Quando questa carta appare nella posizione del passato, indica un periodo della tua vita in cui l'energia di questo Arcano ha avuto un ruolo determinante. Potresti ricordare decisioni impulsive, occasioni colte al volo o momenti di profonda trasformazione. Questo evento passato può aver aperto nuove strade, portato insegnamenti o anche conseguenze inattese. Spesso suggerisce di riflettere su ciò che hai imparato da quel periodo, perché il suo impatto influenza ancora il presente.
+Quando La Stella appare nella posizione del passato, richiama momenti in cui hai ritrovato speranza e serenità dopo una fase complessa. Potresti ricordare periodi in cui hai sentito una guida interiore farti strada verso la guarigione e la consapevolezza.  
+Questo passato rappresenta la base della tua forza attuale: aver superato le difficoltà ti ha insegnato a credere nelle tue capacità e a riconoscere la luce anche nei momenti di buio. Riconoscere quel percorso rafforza la tua fiducia nel presente.
 
 ---
 
 ## Significato nel Presente  
-Nel presente, questa carta ti invita a osservare attentamente le forze che agiscono ora nella tua vita. Può indicare un nuovo inizio, una scelta da compiere o una fase di crescita personale. Ti sprona a seguire l'istinto e a riconoscere i segnali intorno a te. Allo stesso tempo, mette in guardia dai rischi dell'impulsività, invitando a bilanciare entusiasmo e prudenza. È un richiamo ad agire con consapevolezza, senza lasciarsi bloccare dalla paura.
+Nel presente, La Stella indica che sei in una fase di pace interiore e di rinnovata speranza. È il momento di lasciarsi guidare dall’intuito e dalla fiducia nella vita, accogliendo l’armonia che ti circonda.  
+Questa carta incoraggia a esprimere autenticità, creatività e generosità, ricordando che la tua luce interiore può ispirare anche gli altri. È anche un invito a coltivare la connessione spirituale e a mantenere viva la fiducia nelle possibilità future.
 
 ---
 
 ## Significato nel Futuro  
-Quando appare nel futuro, questa carta preannuncia sviluppi significativi o eventi inattesi. Può trattarsi di un'opportunità di cambiamento, di una svolta imprevista o di una fase di liberazione da vecchi schemi. Indica che il futuro ti offrirà la possibilità di crescere ed evolvere, a patto di accogliere l'imprevisto con fiducia. Preparati a muoverti verso nuove esperienze, riconoscendo che ogni passo fuori dalla zona di comfort porta a un'evoluzione interiore.
+Quando La Stella appare nella posizione del futuro, preannuncia guarigione, serenità e successi che nascono dall’armonia interiore. Il futuro promette momenti di ispirazione, di chiarezza e di opportunità positive, soprattutto se affrontati con fiducia e apertura.  
+Questa carta suggerisce che il tuo cammino sarà illuminato dalla speranza e dalla consapevolezza, invitandoti a credere nella tua capacità di superare qualsiasi ostacolo e di creare una vita in equilibrio con i tuoi valori più autentici.
 
 ---

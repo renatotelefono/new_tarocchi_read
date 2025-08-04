@@ -1,20 +1,24 @@
-# La Giustizia (8)
+# La Giustizia (8/11)
 
-Carta di equilibrio, legge e verità. Invita alla correttezza e a valutare bene le conseguenze delle proprie azioni.
+La Giustizia è la carta dell’equilibrio, della verità e delle conseguenze delle proprie azioni. Simboleggia il principio di causa ed effetto, l’importanza di scelte ponderate e di decisioni prese con imparzialità. È l’archetipo della responsabilità e della chiarezza interiore, che invita a guardare la realtà con occhi sinceri e a riconoscere le proprie responsabilità.  
+Quando questa carta appare, suggerisce di valutare con attenzione ogni situazione, affidandosi alla logica, all’onestà e alla capacità di discernimento per trovare la strada più giusta.
 
 ---
 
 ## Significato nel Passato  
-Quando questa carta appare nella posizione del passato, indica un periodo della tua vita in cui l'energia di questo Arcano ha avuto un ruolo determinante. Potresti ricordare decisioni impulsive, occasioni colte al volo o momenti di profonda trasformazione. Questo evento passato può aver aperto nuove strade, portato insegnamenti o anche conseguenze inattese. Spesso suggerisce di riflettere su ciò che hai imparato da quel periodo, perché il suo impatto influenza ancora il presente.
+Quando La Giustizia appare nella posizione del passato, richiama momenti in cui hai dovuto affrontare decisioni importanti o situazioni in cui le tue azioni hanno avuto conseguenze significative. Potresti ricordare un periodo in cui la chiarezza mentale e il rispetto delle regole sono stati fondamentali per superare sfide o risolvere conflitti.  
+Questo passato ti ricorda che l’onestà e la responsabilità hanno costruito le basi della tua vita attuale. Riconoscere il valore di quelle esperienze rafforza la tua capacità di affrontare con lucidità le scelte presenti.
 
 ---
 
 ## Significato nel Presente  
-Nel presente, questa carta ti invita a osservare attentamente le forze che agiscono ora nella tua vita. Può indicare un nuovo inizio, una scelta da compiere o una fase di crescita personale. Ti sprona a seguire l'istinto e a riconoscere i segnali intorno a te. Allo stesso tempo, mette in guardia dai rischi dell'impulsività, invitando a bilanciare entusiasmo e prudenza. È un richiamo ad agire con consapevolezza, senza lasciarsi bloccare dalla paura.
+Nel presente, La Giustizia indica la necessità di agire con equilibrio e trasparenza. Potresti trovarti di fronte a decisioni cruciali che richiedono valutazioni oggettive e imparziali.  
+Questa carta invita a riflettere prima di agire, a considerare le conseguenze di ogni scelta e a non lasciarsi influenzare da emozioni o pressioni esterne. La Giustizia ricorda che la verità interiore e l’integrità morale sono i tuoi alleati più forti, guidandoti verso soluzioni che portano armonia e stabilità.
 
 ---
 
 ## Significato nel Futuro  
-Quando appare nel futuro, questa carta preannuncia sviluppi significativi o eventi inattesi. Può trattarsi di un'opportunità di cambiamento, di una svolta imprevista o di una fase di liberazione da vecchi schemi. Indica che il futuro ti offrirà la possibilità di crescere ed evolvere, a patto di accogliere l'imprevisto con fiducia. Preparati a muoverti verso nuove esperienze, riconoscendo che ogni passo fuori dalla zona di comfort porta a un'evoluzione interiore.
+Quando La Giustizia appare nella posizione del futuro, preannuncia un periodo di chiarezza e di resa dei conti. Eventi imminenti porteranno equilibrio e verità, mettendo in luce il risultato delle tue azioni passate.  
+Questa carta suggerisce che la trasparenza e la correttezza saranno premiate, mentre eventuali ingiustizie o scorrettezze emergeranno. Il futuro della Giustizia invita a continuare a seguire la via dell’integrità, perché solo chi agisce in armonia con i propri valori trova pace e stabilità durature.
 
 ---

@@ -1,20 +1,24 @@
 # La Temperanza (14)
 
-Carta di armonia e moderazione. Invita all’equilibrio tra emozioni, pensieri e azioni.
+La Temperanza è la carta dell’armonia, dell’equilibrio e della moderazione. Simboleggia la capacità di unire elementi opposti, di trovare la via di mezzo e di trasformare le difficoltà in opportunità di crescita. È l’archetipo della pazienza e dell’adattabilità, che insegna a non forzare i tempi della vita ma a fluire con essi.  
+Quando questa carta appare, invita a coltivare serenità interiore, a mediare tra emozioni contrastanti e a cercare soluzioni pacifiche e costruttive.
 
 ---
 
 ## Significato nel Passato  
-Quando questa carta appare nella posizione del passato, indica un periodo della tua vita in cui l'energia di questo Arcano ha avuto un ruolo determinante. Potresti ricordare decisioni impulsive, occasioni colte al volo o momenti di profonda trasformazione. Questo evento passato può aver aperto nuove strade, portato insegnamenti o anche conseguenze inattese. Spesso suggerisce di riflettere su ciò che hai imparato da quel periodo, perché il suo impatto influenza ancora il presente.
+Quando La Temperanza appare nella posizione del passato, richiama momenti in cui hai trovato equilibrio dopo un periodo di difficoltà o di conflitti. Potresti ricordare esperienze in cui la pazienza e la capacità di mediazione ti hanno permesso di superare situazioni complesse e di ritrovare serenità.  
+Questo passato rappresenta la base della tua stabilità attuale: l’aver imparato a unire opposti e a gestire le emozioni con saggezza continua a guidarti nel presente.
 
 ---
 
 ## Significato nel Presente  
-Nel presente, questa carta ti invita a osservare attentamente le forze che agiscono ora nella tua vita. Può indicare un nuovo inizio, una scelta da compiere o una fase di crescita personale. Ti sprona a seguire l'istinto e a riconoscere i segnali intorno a te. Allo stesso tempo, mette in guardia dai rischi dell'impulsività, invitando a bilanciare entusiasmo e prudenza. È un richiamo ad agire con consapevolezza, senza lasciarsi bloccare dalla paura.
+Nel presente, La Temperanza suggerisce che sei in un momento in cui la moderazione e l’armonia sono fondamentali. Potresti dover affrontare situazioni che richiedono equilibrio, diplomazia e capacità di adattamento.  
+Questa carta invita a evitare estremi, a cercare la via della collaborazione e a fidarti del flusso naturale degli eventi. La Temperanza ricorda che i risultati più duraturi si ottengono attraverso pazienza, cooperazione e un atteggiamento calmo e consapevole.
 
 ---
 
 ## Significato nel Futuro  
-Quando appare nel futuro, questa carta preannuncia sviluppi significativi o eventi inattesi. Può trattarsi di un'opportunità di cambiamento, di una svolta imprevista o di una fase di liberazione da vecchi schemi. Indica che il futuro ti offrirà la possibilità di crescere ed evolvere, a patto di accogliere l'imprevisto con fiducia. Preparati a muoverti verso nuove esperienze, riconoscendo che ogni passo fuori dalla zona di comfort porta a un'evoluzione interiore.
+Quando La Temperanza appare nella posizione del futuro, preannuncia un periodo di stabilità e armonia. I conflitti si attenueranno e troverai nuove opportunità di crescita attraverso la collaborazione e la comprensione reciproca.  
+Il futuro della Temperanza promette equilibrio interiore e relazioni più serene, invitandoti a coltivare la pazienza e a credere che ogni passo misurato conduce a risultati duraturi e positivi.
 
 ---

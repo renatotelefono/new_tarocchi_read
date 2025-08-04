@@ -1,20 +1,24 @@
 # Il Mondo (21)
 
-Simbolo di compimento, realizzazione e armonia totale. Rappresenta il raggiungimento di un obiettivo importante.
+Il Mondo è la carta del compimento, della realizzazione e dell’armonia universale. Simboleggia il raggiungimento di un obiettivo importante, la fine di un ciclo e l’inizio di una nuova fase di vita più consapevole. È l’archetipo della completezza e della connessione tra tutte le cose: indica che ogni esperienza, positiva o negativa, ha trovato il suo posto e contribuito a creare una nuova integrità interiore.  
+Quando questa carta appare, suggerisce che sei pronto a raccogliere i frutti dei tuoi sforzi e a celebrare la pienezza della vita.
 
 ---
 
 ## Significato nel Passato  
-Quando questa carta appare nella posizione del passato, indica un periodo della tua vita in cui l'energia di questo Arcano ha avuto un ruolo determinante. Potresti ricordare decisioni impulsive, occasioni colte al volo o momenti di profonda trasformazione. Questo evento passato può aver aperto nuove strade, portato insegnamenti o anche conseguenze inattese. Spesso suggerisce di riflettere su ciò che hai imparato da quel periodo, perché il suo impatto influenza ancora il presente.
+Quando Il Mondo appare nella posizione del passato, indica che hai già sperimentato un momento di compimento o di grande soddisfazione. Potresti ricordare un traguardo raggiunto, la conclusione di un progetto o di un periodo importante della tua vita. Questa carta evidenzia che quell’esperienza di successo ha rafforzato la tua fiducia e ti ha mostrato quanto sei capace di portare a termine ciò che inizi.  
+Il passato del Mondo rappresenta anche la chiusura di vecchi cicli: accettare le lezioni apprese allora può aiutarti a proseguire con serenità verso nuove sfide.
 
 ---
 
 ## Significato nel Presente  
-Nel presente, questa carta ti invita a osservare attentamente le forze che agiscono ora nella tua vita. Può indicare un nuovo inizio, una scelta da compiere o una fase di crescita personale. Ti sprona a seguire l'istinto e a riconoscere i segnali intorno a te. Allo stesso tempo, mette in guardia dai rischi dell'impulsività, invitando a bilanciare entusiasmo e prudenza. È un richiamo ad agire con consapevolezza, senza lasciarsi bloccare dalla paura.
+Nel presente, Il Mondo indica che sei in una fase di armonia e compimento. Potresti essere vicino a un grande risultato o pronto a raccogliere riconoscimenti per i tuoi sforzi. È il momento di celebrare ciò che hai costruito e di riconoscere il percorso compiuto per arrivare qui.  
+Questa carta suggerisce anche apertura al mondo esterno: viaggi, incontri significativi o la sensazione di essere in sintonia con la vita stessa. La tua crescita personale ti permette di sentirti intero e di connetterti con ciò che ti circonda in modo autentico e consapevole.
 
 ---
 
 ## Significato nel Futuro  
-Quando appare nel futuro, questa carta preannuncia sviluppi significativi o eventi inattesi. Può trattarsi di un'opportunità di cambiamento, di una svolta imprevista o di una fase di liberazione da vecchi schemi. Indica che il futuro ti offrirà la possibilità di crescere ed evolvere, a patto di accogliere l'imprevisto con fiducia. Preparati a muoverti verso nuove esperienze, riconoscendo che ogni passo fuori dalla zona di comfort porta a un'evoluzione interiore.
+Quando Il Mondo appare nella posizione del futuro, annuncia l’arrivo di una fase di successo e realizzazione. È il segno che ciò a cui stai lavorando troverà compimento e ti condurrà a un nuovo equilibrio interiore. Il futuro porta con sé opportunità di riconoscimento, gratitudine e la chiusura armoniosa di cicli di vita.  
+Questa carta incoraggia a godere dei frutti del tuo impegno e a prepararti a un nuovo inizio, perché ogni completamento apre la strada a ulteriori possibilità di crescita. Il Mondo promette serenità, consapevolezza e una profonda connessione con il flusso della vita.
 
 ---

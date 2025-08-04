@@ -1,20 +1,24 @@
 # Gli Amanti (6)
 
-Carta delle scelte di cuore e delle relazioni. Simboleggia armonia, attrazione e decisioni importanti in ambito affettivo.
+Gli Amanti sono la carta delle scelte, delle relazioni e dell’armonia tra cuore e mente. Simboleggiano l’unione, la connessione profonda e i legami che portano crescita e trasformazione. È l’archetipo della decisione consapevole in amore e nelle relazioni, ma anche della necessità di scegliere tra strade diverse seguendo la voce del cuore.  
+Quando questa carta appare, invita a riflettere su ciò che desideri veramente e sull’importanza di agire in accordo con i tuoi valori più autentici.
 
 ---
 
 ## Significato nel Passato  
-Quando questa carta appare nella posizione del passato, indica un periodo della tua vita in cui l'energia di questo Arcano ha avuto un ruolo determinante. Potresti ricordare decisioni impulsive, occasioni colte al volo o momenti di profonda trasformazione. Questo evento passato può aver aperto nuove strade, portato insegnamenti o anche conseguenze inattese. Spesso suggerisce di riflettere su ciò che hai imparato da quel periodo, perché il suo impatto influenza ancora il presente.
+Quando Gli Amanti appaiono nella posizione del passato, richiamano momenti in cui le scelte affettive o relazionali hanno avuto un ruolo determinante nella tua vita. Potresti ricordare relazioni importanti, decisioni di cuore o situazioni in cui hai seguito l’istinto anziché la logica.  
+Questo passato ti ha insegnato il valore delle connessioni autentiche e la responsabilità che ogni scelta porta con sé. Riconoscere queste esperienze ti aiuta a comprendere come le decisioni emotive abbiano contribuito alla tua crescita personale.
 
 ---
 
 ## Significato nel Presente  
-Nel presente, questa carta ti invita a osservare attentamente le forze che agiscono ora nella tua vita. Può indicare un nuovo inizio, una scelta da compiere o una fase di crescita personale. Ti sprona a seguire l'istinto e a riconoscere i segnali intorno a te. Allo stesso tempo, mette in guardia dai rischi dell'impulsività, invitando a bilanciare entusiasmo e prudenza. È un richiamo ad agire con consapevolezza, senza lasciarsi bloccare dalla paura.
+Nel presente, Gli Amanti indicano che ti trovi di fronte a una scelta significativa, spesso legata alle relazioni o alla tua vita affettiva. È il momento di ascoltare il cuore, ma anche di mantenere equilibrio e consapevolezza.  
+Questa carta invita a riflettere sui valori che guidano le tue decisioni e a scegliere la strada che ti porta armonia e autenticità. Indica anche un periodo favorevole per rafforzare i legami affettivi, basandoli su fiducia, sincerità e rispetto reciproco.
 
 ---
 
 ## Significato nel Futuro  
-Quando appare nel futuro, questa carta preannuncia sviluppi significativi o eventi inattesi. Può trattarsi di un'opportunità di cambiamento, di una svolta imprevista o di una fase di liberazione da vecchi schemi. Indica che il futuro ti offrirà la possibilità di crescere ed evolvere, a patto di accogliere l'imprevisto con fiducia. Preparati a muoverti verso nuove esperienze, riconoscendo che ogni passo fuori dalla zona di comfort porta a un'evoluzione interiore.
+Quando Gli Amanti appaiono nella posizione del futuro, preannunciano un periodo di unione, armonia e scelte consapevoli. Potrebbe arrivare una nuova relazione significativa o una decisione di cuore che segnerà una svolta nella tua vita.  
+Il futuro sotto il segno degli Amanti invita a seguire la voce interiore e a coltivare relazioni sincere. La felicità nascerà dall’allineamento tra ciò che senti e ciò che scegli di fare, creando connessioni profonde e autentiche.
 
 ---

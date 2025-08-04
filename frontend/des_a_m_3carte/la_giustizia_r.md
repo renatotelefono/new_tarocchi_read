@@ -1,20 +1,24 @@
-# La Giustizia Rovesciato (8)
+# La Giustizia (8/11) – Rovesciata
 
-Versione rovesciata di La Giustizia. Indica energie bloccate, ritardi o difficoltà legate a questo Arcano.
+La Giustizia rovesciata simboleggia ingiustizia, confusione e mancanza di responsabilità. Quando appare al contrario, segnala che la verità potrebbe essere distorta, che le decisioni prese non sono imparziali o che qualcuno evita di assumersi le proprie responsabilità.  
+Questa carta invita a riflettere su quali aree della vita sono influenzate da squilibri, bugie o autoinganni, ricordando che negare la realtà porta solo a ritardi e difficoltà maggiori.
 
 ---
 
 ## Significato nel Passato  
-In passato, la carta rovesciata suggerisce esitazioni, occasioni mancate o scelte affrettate che hanno portato complicazioni. Potresti aver ignorato un segnale importante o aver agito in modo impulsivo, ritardando la tua crescita personale. Questa energia passata invita a riconoscere gli errori e a trasformarli in insegnamenti.
+Se La Giustizia rovesciata appare nella posizione del passato, richiama esperienze di ingiustizia o di squilibrio. Potresti ricordare situazioni in cui sei stato trattato in modo scorretto o in cui hai evitato di affrontare responsabilità, con conseguenze che si sono protratte nel tempo.  
+Questa carta suggerisce di imparare dalle esperienze passate, riconoscendo come la mancanza di equilibrio o trasparenza abbia influito sulla tua crescita personale.
 
 ---
 
 ## Significato nel Presente  
-Nel presente, la carta rovesciata avverte di ostacoli, energie bloccate o timori che impediscono di procedere. Indica confusione, esitazione o il rischio di scelte avventate. Il consiglio è di fermarsi a riflettere, evitare azioni impulsive e cercare chiarezza prima di agire. A volte è necessario liberarsi di vecchi condizionamenti per sbloccarsi.
+Nel presente, La Giustizia rovesciata indica che potresti sentirti confuso, ingannato o intrappolato in situazioni in cui la verità non è chiara. Forse stai vivendo conflitti derivanti da menzogne, omissioni o da una visione distorta della realtà.  
+Questa carta ti invita a guardare dentro di te e ad assumerti le tue responsabilità, evitando di scaricare colpe all’esterno. Solo recuperando chiarezza e onestà sarà possibile ripristinare l’equilibrio e prendere decisioni giuste.
 
 ---
 
 ## Significato nel Futuro  
-In futuro, la carta rovesciata preannuncia ritardi, ostacoli o sfide da affrontare prima di ottenere il cambiamento desiderato. Può indicare illusioni da superare o scelte difficili che richiederanno prudenza. Accettare i rallentamenti come opportunità di apprendimento sarà fondamentale per trasformare gli ostacoli in crescita personale.
+Quando La Giustizia rovesciata appare nella posizione del futuro, avverte di possibili ritardi, ostacoli legali o conflitti derivanti da mancanza di trasparenza. Le conseguenze di azioni scorrette, proprie o altrui, potrebbero emergere, richiedendo coraggio e onestà per essere affrontate.  
+Il consiglio della carta è chiaro: preparati a riconoscere la verità, anche se scomoda, e lavora per ristabilire equilibrio e integrità. Solo così potrai trasformare una fase di instabilità in un’occasione di crescita e maturità interiore.
 
 ---

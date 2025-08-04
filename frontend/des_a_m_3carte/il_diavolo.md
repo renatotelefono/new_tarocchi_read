@@ -1,20 +1,24 @@
 # Il Diavolo (15)
 
-Rappresenta tentazioni, dipendenze e paure interiori. Invita a liberarsi da ciò che ci tiene prigionieri.
+Il Diavolo è la carta delle passioni intense, delle dipendenze e delle illusioni materiali. Simboleggia legami che imprigionano, tentazioni e condizionamenti che possono limitare la libertà personale. È l’archetipo dell’ombra, che invita a confrontarsi con le proprie paure, desideri e attaccamenti.  
+Quando questa carta appare, segnala la necessità di riconoscere quali influenze o comportamenti stanno limitando la tua crescita e la tua autenticità. Solo affrontando queste catene interiori potrai ritrovare libertà e consapevolezza.
 
 ---
 
 ## Significato nel Passato  
-Quando questa carta appare nella posizione del passato, indica un periodo della tua vita in cui l'energia di questo Arcano ha avuto un ruolo determinante. Potresti ricordare decisioni impulsive, occasioni colte al volo o momenti di profonda trasformazione. Questo evento passato può aver aperto nuove strade, portato insegnamenti o anche conseguenze inattese. Spesso suggerisce di riflettere su ciò che hai imparato da quel periodo, perché il suo impatto influenza ancora il presente.
+Quando Il Diavolo appare nella posizione del passato, richiama momenti in cui sei stato influenzato da passioni, tentazioni o condizionamenti esterni. Potresti ricordare periodi di dipendenza emotiva, materiale o comportamentale che hanno limitato la tua libertà di scelta.  
+Questo passato rappresenta una lezione importante: aver sperimentato vincoli e limitazioni ti ha insegnato a riconoscere ciò che ti imprigiona e a trovare la forza di liberarti da legami tossici o situazioni ingannevoli.
 
 ---
 
 ## Significato nel Presente  
-Nel presente, questa carta ti invita a osservare attentamente le forze che agiscono ora nella tua vita. Può indicare un nuovo inizio, una scelta da compiere o una fase di crescita personale. Ti sprona a seguire l'istinto e a riconoscere i segnali intorno a te. Allo stesso tempo, mette in guardia dai rischi dell'impulsività, invitando a bilanciare entusiasmo e prudenza. È un richiamo ad agire con consapevolezza, senza lasciarsi bloccare dalla paura.
+Nel presente, Il Diavolo indica che potresti sentirti intrappolato in una situazione che limita la tua libertà o che sei tentato da scelte che offrono gratificazione immediata ma portano conseguenze negative.  
+Questa carta invita a osservare con onestà i tuoi legami, desideri e abitudini, per distinguere tra ciò che nutre davvero la tua vita e ciò che la impoverisce. La consapevolezza di queste dinamiche è il primo passo verso la liberazione.
 
 ---
 
 ## Significato nel Futuro  
-Quando appare nel futuro, questa carta preannuncia sviluppi significativi o eventi inattesi. Può trattarsi di un'opportunità di cambiamento, di una svolta imprevista o di una fase di liberazione da vecchi schemi. Indica che il futuro ti offrirà la possibilità di crescere ed evolvere, a patto di accogliere l'imprevisto con fiducia. Preparati a muoverti verso nuove esperienze, riconoscendo che ogni passo fuori dalla zona di comfort porta a un'evoluzione interiore.
+Quando Il Diavolo appare nella posizione del futuro, preannuncia la possibilità di affrontare sfide legate a legami, dipendenze o tentazioni. Il futuro potrebbe portare situazioni che metteranno alla prova la tua capacità di mantenere autonomia e integrità.  
+Il messaggio di questa carta è chiaro: riconoscere le catene interiori e liberarsene è essenziale per evitare di ripetere schemi limitanti. Affrontare l’ombra con coraggio porta a una trasformazione profonda e a una libertà interiore duratura.
 
 ---

@@ -1,20 +1,24 @@
 # Il Giudizio (20)
 
-Rappresenta risveglio, consapevolezza e cambiamento decisivo. Invita a fare i conti con il passato per rinascere.
+Il Giudizio è la carta della rinascita, della consapevolezza e delle rivelazioni decisive. Simboleggia il momento in cui la verità emerge e si è chiamati a valutare il proprio percorso, accogliendo i cambiamenti che ne derivano. È l’archetipo della chiamata interiore, della liberazione dal passato e della possibilità di ricominciare con maggiore chiarezza e maturità.  
+Quando questa carta appare, indica un periodo di risveglio interiore e di decisioni importanti, che possono aprire la strada a una nuova fase della vita più autentica e consapevole.
 
 ---
 
 ## Significato nel Passato  
-Quando questa carta appare nella posizione del passato, indica un periodo della tua vita in cui l'energia di questo Arcano ha avuto un ruolo determinante. Potresti ricordare decisioni impulsive, occasioni colte al volo o momenti di profonda trasformazione. Questo evento passato può aver aperto nuove strade, portato insegnamenti o anche conseguenze inattese. Spesso suggerisce di riflettere su ciò che hai imparato da quel periodo, perché il suo impatto influenza ancora il presente.
+Quando Il Giudizio appare nella posizione del passato, richiama momenti in cui hai vissuto esperienze di rinnovamento o di valutazione profonda della tua vita. Potresti ricordare decisioni decisive, cambiamenti significativi o periodi in cui la consapevolezza di te stesso è aumentata.  
+Questo passato rappresenta una base di forza e di chiarezza, poiché ti ha insegnato a riconoscere la necessità di cambiamento e a lasciare andare ciò che non serviva più al tuo percorso.
 
 ---
 
 ## Significato nel Presente  
-Nel presente, questa carta ti invita a osservare attentamente le forze che agiscono ora nella tua vita. Può indicare un nuovo inizio, una scelta da compiere o una fase di crescita personale. Ti sprona a seguire l'istinto e a riconoscere i segnali intorno a te. Allo stesso tempo, mette in guardia dai rischi dell'impulsività, invitando a bilanciare entusiasmo e prudenza. È un richiamo ad agire con consapevolezza, senza lasciarsi bloccare dalla paura.
+Nel presente, Il Giudizio indica che sei in una fase di risveglio e di riflessione profonda. È il momento di fare chiarezza, di valutare le tue scelte e di riconoscere le conseguenze delle tue azioni.  
+Questa carta invita a liberarti da pesi emotivi e a rispondere alla “chiamata interiore” che ti guida verso una vita più autentica. È anche un segnale di opportunità: accogliere il cambiamento con fiducia può aprire la strada a nuove possibilità e a una crescita personale significativa.
 
 ---
 
 ## Significato nel Futuro  
-Quando appare nel futuro, questa carta preannuncia sviluppi significativi o eventi inattesi. Può trattarsi di un'opportunità di cambiamento, di una svolta imprevista o di una fase di liberazione da vecchi schemi. Indica che il futuro ti offrirà la possibilità di crescere ed evolvere, a patto di accogliere l'imprevisto con fiducia. Preparati a muoverti verso nuove esperienze, riconoscendo che ogni passo fuori dalla zona di comfort porta a un'evoluzione interiore.
+Quando Il Giudizio appare nella posizione del futuro, preannuncia una fase di rivelazioni, decisioni importanti e liberazione dal passato. Eventi significativi ti porteranno a fare scelte consapevoli e a intraprendere un nuovo inizio più in linea con la tua vera essenza.  
+Il futuro sotto il segno del Giudizio promette rinascita e chiarezza interiore, invitandoti a lasciare andare ciò che non appartiene più alla tua vita e a costruire un futuro più autentico e armonioso.
 
 ---

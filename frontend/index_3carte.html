@@ -40,13 +40,8 @@
       background: #ddd;
       transition: transform 0.5s ease;
     }
-    .card.visible {
-      opacity: 1;
-      background: none;
-    }
-    .card.reversed {
-      transform: rotate(180deg);
-    }
+    .card.visible { opacity: 1; background: none; }
+    .card.reversed { transform: rotate(180deg); }
     #output { margin-top: 20px; font-size: 20px; color: #333; }
     #cardMarkdown {
       max-width: 600px;
@@ -116,7 +111,7 @@
     let availableCards = [];
     let selectedCards = [];
 
-    const introText = "Benvenuto nella lettura classica a tre carte. Premi i pulsanti in ordine per rivelare la carta sinistra, la carta centrale e la carta destra. Alla fine leggerò la loro interpretazione. Se la carta è rovesciata pronuncia 'rovesciata' dopo il nome della carta.";
+    const introText = "Benvenuto nella lettura classica a tre carte. Premi i pulsanti in ordine per rivelare la carta sinistra, la carta centrale e la carta destra. Alla fine leggerò la loro interpretazione. Se la carta è rovesciata pronuncia 'rovesciata' o 'rivoltata'.";
 
     async function loadCards() {
       const response = await fetch('/cards.json');
@@ -145,17 +140,17 @@
 
     function normalizeName(name) {
       return name.toLowerCase()
-        .replace(/['’]/g, " ")  // apostrofi → spazio
-        .replace(/\s+/g, " ")   // spazi multipli → singolo
-        .replace(/[^a-z0-9 ]/g, "") // solo lettere/numeri/spazi
+        .replace(/['’]/g, " ")  
+        .replace(/\s+/g, " ")   
+        .replace(/[^a-z0-9 ]/g, "") 
         .trim();
     }
 
     function normalizeFileName(name) {
       return name.toLowerCase()
-        .replace(/['’]/g, "")    // rimuovi apostrofi
-        .replace(/\s+/g, "_")    // spazi -> underscore
-        .replace(/[^a-z0-9_]/g, ""); // solo lettere/numeri/underscore
+        .replace(/['’]/g, "_")    
+        .replace(/\s+/g, "_")     
+        .replace(/[^a-z0-9_]/g, ""); 
     }
 
     async function recognizeCard(button, slotImg, nextButton, phase) {
@@ -178,10 +173,13 @@
         let transcript = originalTranscript;
         if (transcript.includes("papà")) transcript = transcript.replace("papà","papa");
 
-        const isReversed = transcript.includes("rovesciato") || transcript.includes("rovesciata");
+        const isReversed = ["rovesciato","rovesciata","rivoltato","rivoltata"]
+                          .some(k => transcript.includes(k));
+
         const cleanedTranscript = normalizeName(
-          transcript.replace("rovesciato","").replace("rovesciata","")
+          transcript.replace(/rovesciat[oa]/g,"").replace(/rivoltat[oa]/g,"")
         );
+
         output.innerHTML = `🎤 Hai detto: <strong>${transcript}</strong>`;
 
         const index = availableCards.findIndex(c =>
@@ -194,11 +192,13 @@
         }
 
         const card = availableCards.splice(index, 1)[0];
-        selectedCards.push({...card, position: phase, reversed: isReversed});
+        selectedCards.push({ ...card, position: phase, reversed: isReversed });
 
         slotImg.src = '/cards_arcani_maggiori/' + card.file;
-        slotImg.classList.add('visible');
-        if (isReversed) slotImg.classList.add('reversed');
+        slotImg.onload = () => {
+          slotImg.classList.add('visible');
+          if (isReversed) slotImg.classList.add('reversed');
+        };
 
         button.disabled = true;
 
@@ -236,14 +236,16 @@
         .trim();
     }
 
+// 🔹 Funzione robusta per estrarre la sezione giusta
 function extractSection(mdText, phase) {
   const sectionMap = { left: "passato", center: "presente", right: "futuro" };
   const keyword = sectionMap[phase];
+
   const normalized = mdText.replace(/\r\n/g, "\n");
 
-  // Permissiva: trova "Significato nel ..." ovunque, case-insensitive
+  // Trova la sezione dal titolo fino al prossimo titolo o fine file
   const regex = new RegExp(
-    `##\\s*(?:significato\\s+nel\\s+)?${keyword}[\\s\\S]*?(?=\\n##|$)`,
+    `(^|\\n)##\\s*significato\\s+nel\\s+${keyword}[\\s\\S]*?(?=\\n##|$)`,
     "i"
   );
 
@@ -252,50 +254,66 @@ function extractSection(mdText, phase) {
 
   return match[0]
     .split("\n")
-    .slice(1) // rimuovi titolo sezione
-    .filter(line => !/^---\s*$/.test(line)) // rimuovi linee ---
+    .slice(1)                              // rimuove la riga del titolo sezione
+    .filter(line => line.trim() !== "" && line.trim() !== "---")
     .join("\n")
     .trim();
 }
 
 
-    interpretBtn.addEventListener('click', async () => {
-      cardMarkdown.innerHTML = "";
 
-      for (let card of selectedCards) {
-        const baseName = normalizeFileName(card.name);
-        const markdownFile = baseName + (card.reversed ? "_r.md" : ".md");
 
-        console.log("📄 Carico file:", markdownFile);
+// 🔹 Gestione click per interpretazione carte
+interpretBtn.addEventListener('click', async () => {
+  cardMarkdown.innerHTML = "";
 
-        const res = await fetch('/des_a_m_3carte/' + markdownFile);
-        if (!res.ok) {
-          console.error("❌ File non trovato:", markdownFile);
-          cardMarkdown.innerHTML += `<p class="error">File non trovato per ${card.name}</p>`;
-          continue;
-        }
+  for (let card of selectedCards) {
+    const baseName = normalizeFileName(card.name);
+    const markdownFile = baseName + (card.reversed ? "_r.md" : ".md");
 
-        let mdText = await res.text();
-        console.log("📄 Contenuto originale di", markdownFile, ":\n", mdText);
+    console.log("📄 Carico file:", markdownFile);
 
-        const section = extractSection(mdText, card.position);
-        console.log("📄 Sezione estratta per", card.name, ":", section);
+    const res = await fetch('/des_a_m_3carte/' + markdownFile);
+    if (!res.ok) {
+      console.error("❌ File non trovato:", markdownFile);
+      cardMarkdown.innerHTML += `<p class="error">File non trovato per ${card.name}</p>`;
+      continue;
+    }
 
-        if (!section) {
-          cardMarkdown.innerHTML += `<p class="error">Sezione non trovata per ${card.name}</p>`;
-          continue;
-        }
+    let mdText = await res.text();
 
-        cardMarkdown.innerHTML += "<h3>" + card.name + (card.reversed ? " (Rovesciata)" : "") + "</h3>" + marked.parse(section);
-        cardMarkdown.classList.add("visible");
+    if (mdText.startsWith("<!DOCTYPE html>")) {
+      console.error("❌ File errato (HTML di fallback) per:", markdownFile);
+      cardMarkdown.innerHTML += `<p class="error">File mancante o non valido per ${card.name}</p>`;
+      continue;
+    }
 
-        const spokenText = card.name + (card.reversed ? " rovesciata. " : ". ") + cleanForTTS(section);
-        await playWithAzureTTS(spokenText);
-        await new Promise(resolve => setTimeout(resolve, 1000));
-      }
+    console.log("📄 Contenuto originale di", markdownFile, ":\n", mdText);
 
-      resetBtn.style.display = 'inline-block';
-    });
+    const section = extractSection(mdText, card.position);
+    console.log("📄 Sezione estratta per", card.name + (card.reversed ? " (rovesciata)" : ""), ":", section);
+
+    if (!section) {
+      cardMarkdown.innerHTML += `<p class="error">Sezione non trovata per ${card.name}</p>`;
+      continue;
+    }
+
+    // Mostra il nome della carta + testo della sezione
+    cardMarkdown.innerHTML +=
+      "<h3>" + card.name + (card.reversed ? " (Rovesciata)" : "") + "</h3>" +
+      marked.parse(section);
+    cardMarkdown.classList.add("visible");
+
+    // Legge solo il nome della carta + il testo della sezione
+    const spokenText = card.name + (card.reversed ? " rovesciata. " : ". ") + cleanForTTS(section);
+    await playWithAzureTTS(spokenText);
+    await new Promise(resolve => setTimeout(resolve, 1000));
+  }
+
+  resetBtn.style.display = 'inline-block';
+});
+
+
 
     resetBtn.addEventListener('click', () => {
       availableCards = [...cards];
