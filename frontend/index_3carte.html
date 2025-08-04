@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <title>Lettura Tarocchi - Tre Carte</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: #fafafa;
+      padding: 30px;
+    }
+    h1 { font-size: 28px; margin-bottom: 20px; }
+    button {
+      padding: 12px 24px;
+      font-size: 18px;
+      margin: 10px;
+      cursor: pointer;
+    }
+    .board {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin-top: 30px;
+    }
+    .slot {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+    .card {
+      width: 180px;
+      height: 280px;
+      border: 2px solid #444;
+      border-radius: 8px;
+      object-fit: cover;
+      opacity: 0.3;
+      background: #ddd;
+      transition: transform 0.5s ease;
+    }
+    .card.visible {
+      opacity: 1;
+      background: none;
+    }
+    .card.reversed {
+      transform: rotate(180deg);
+    }
+    #output { margin-top: 20px; font-size: 20px; color: #333; }
+    #cardMarkdown {
+      max-width: 600px;
+      margin: 20px auto;
+      text-align: left;
+      font-size: 16px;
+      line-height: 1.5;
+      color: #333;
+      background: #fff;
+      padding: 15px;
+      border-radius: 8px;
+      border: 1px solid #ddd;
+      opacity: 0;
+      transition: opacity 0.8s ease-in;
+    }
+    #cardMarkdown.visible { opacity: 1; }
+    .error { color: red; font-weight: bold; }
+    #resetBtn { display:none; margin-top:20px; background:#4caf50; color:white; border:none; }
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+  <h1>🔮 Lettura dei Tarocchi - Tre Carte</h1>
+
+  <button id="explainBtn">🎧 Spiegazione</button>
+  <p id="output">Premi i pulsanti per iniziare a rivelare le carte.</p>
+
+  <div class="board">
+    <div class="slot">
+      <img id="cardLeft" class="card" src="" alt="Carta Sinistra" />
+      <button id="btnLeft">🎤 Carta Sinistra, il Passato</button>
+    </div>
+    <div class="slot">
+      <img id="cardCenter" class="card" src="" alt="Carta Centrale" />
+      <button id="btnCenter" disabled>🎤 Carta Centrale, il Presente</button>
+    </div>
+    <div class="slot">
+      <img id="cardRight" class="card" src="" alt="Carta Destra" />
+      <button id="btnRight" disabled>🎤 Carta Destra, il Futuro</button>
+    </div>
+  </div>
+
+  <button id="interpretBtn" style="display:none; margin-top:30px;">
+    🔮 Leggi Interpretazione
+  </button>
+
+  <div id="cardMarkdown"></div>
+  <button id="resetBtn">🔄 Nuova Lettura</button>
+
+  <script type="module">
+    const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+
+    const btnLeft = document.getElementById('btnLeft');
+    const btnCenter = document.getElementById('btnCenter');
+    const btnRight = document.getElementById('btnRight');
+    const interpretBtn = document.getElementById('interpretBtn');
+    const explainBtn = document.getElementById('explainBtn');
+    const resetBtn = document.getElementById('resetBtn');
+    const output = document.getElementById('output');
+    const cardMarkdown = document.getElementById('cardMarkdown');
+
+    const cardLeft = document.getElementById('cardLeft');
+    const cardCenter = document.getElementById('cardCenter');
+    const cardRight = document.getElementById('cardRight');
+
+    let cards = [];
+    let availableCards = [];
+    let selectedCards = [];
+
+    const introText = "Benvenuto nella lettura classica a tre carte. Premi i pulsanti in ordine per rivelare la carta sinistra, la carta centrale e la carta destra. Alla fine leggerò la loro interpretazione. Se la carta è rovesciata pronuncia 'rovesciata' dopo il nome della carta.";
+
+    async function loadCards() {
+      const response = await fetch('/cards.json');
+      cards = await response.json();
+      availableCards = [...cards];
+    }
+
+    async function playWithAzureTTS(text) {
+      const response = await fetch("/tts", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ text })
+      });
+
+      if (!response.ok) {
+        console.error("Errore TTS Azure:", await response.text());
+        return;
+      }
+
+      const audioBlob = await response.blob();
+      const audioUrl = URL.createObjectURL(audioBlob);
+      const audio = new Audio(audioUrl);
+      await audio.play();
+      return new Promise(resolve => { audio.onended = resolve; });
+    }
+
+    function normalizeName(name) {
+      return name.toLowerCase()
+        .replace(/['’]/g, " ")  // apostrofi → spazio
+        .replace(/\s+/g, " ")   // spazi multipli → singolo
+        .replace(/[^a-z0-9 ]/g, "") // solo lettere/numeri/spazi
+        .trim();
+    }
+
+    function normalizeFileName(name) {
+      return name.toLowerCase()
+        .replace(/['’]/g, "")    // rimuovi apostrofi
+        .replace(/\s+/g, "_")    // spazi -> underscore
+        .replace(/[^a-z0-9_]/g, ""); // solo lettere/numeri/underscore
+    }
+
+    async function recognizeCard(button, slotImg, nextButton, phase) {
+      if (!SpeechRecognition) {
+        alert("❌ Il tuo browser non supporta la Web Speech API");
+        return;
+      }
+
+      const recognition = new SpeechRecognition();
+      recognition.lang = "it-IT";
+      recognition.interimResults = false;
+
+      output.textContent = "🎧 Sto ascoltando...";
+      recognition.start();
+
+      recognition.addEventListener("result", async (event) => {
+        const originalTranscript = event.results[0][0].transcript.toLowerCase();
+        console.log("🎤 Riconosciuto:", originalTranscript);
+
+        let transcript = originalTranscript;
+        if (transcript.includes("papà")) transcript = transcript.replace("papà","papa");
+
+        const isReversed = transcript.includes("rovesciato") || transcript.includes("rovesciata");
+        const cleanedTranscript = normalizeName(
+          transcript.replace("rovesciato","").replace("rovesciata","")
+        );
+        output.innerHTML = `🎤 Hai detto: <strong>${transcript}</strong>`;
+
+        const index = availableCards.findIndex(c =>
+          cleanedTranscript.includes(normalizeName(c.name))
+        );
+
+        if (index === -1) {
+          output.innerHTML += `<br><span class="error">Carta non trovata. Premi di nuovo per riprovare.</span>`;
+          return;
+        }
+
+        const card = availableCards.splice(index, 1)[0];
+        selectedCards.push({...card, position: phase, reversed: isReversed});
+
+        slotImg.src = '/cards_arcani_maggiori/' + card.file;
+        slotImg.classList.add('visible');
+        if (isReversed) slotImg.classList.add('reversed');
+
+        button.disabled = true;
+
+        const phraseMap = { left: "Il passato è ", center: "Il presente è ", right: "Il futuro è " };
+        await playWithAzureTTS(phraseMap[phase] + card.name + (isReversed ? " rovesciata" : ""));
+
+        if (nextButton) nextButton.disabled = false;
+        if (selectedCards.length === 3) {
+          interpretBtn.style.display = 'block';
+          output.textContent = "Tutte le carte sono state rivelate! Premi per leggere l'interpretazione.";
+        }
+      });
+
+      recognition.addEventListener("end", () => {
+        if (selectedCards.length < 3 && !button.disabled) {
+          output.innerHTML += "<br>🎤 Pronto a riprovare.";
+        }
+      });
+    }
+
+    btnLeft.addEventListener('click', () => recognizeCard(btnLeft, cardLeft, btnCenter, "left"));
+    btnCenter.addEventListener('click', () => recognizeCard(btnCenter, cardCenter, btnRight, "center"));
+    btnRight.addEventListener('click', () => recognizeCard(btnRight, cardRight, null, "right"));
+
+    explainBtn.addEventListener('click', async () => {
+      output.textContent = "🔊 Spiegazione in corso...";
+      await playWithAzureTTS(introText);
+      output.textContent = "Pronto per iniziare la lettura.";
+    });
+
+    function cleanForTTS(text) {
+      return text.replace(/^#+\s*/gm, "")
+        .replace(/[*_>\-]/g,"")
+        .replace(/\s+/g," ")
+        .trim();
+    }
+
+function extractSection(mdText, phase) {
+  const sectionMap = { left: "passato", center: "presente", right: "futuro" };
+  const keyword = sectionMap[phase];
+  const normalized = mdText.replace(/\r\n/g, "\n");
+
+  // Permissiva: trova "Significato nel ..." ovunque, case-insensitive
+  const regex = new RegExp(
+    `##\\s*(?:significato\\s+nel\\s+)?${keyword}[\\s\\S]*?(?=\\n##|$)`,
+    "i"
+  );
+
+  const match = normalized.match(regex);
+  if (!match) return "";
+
+  return match[0]
+    .split("\n")
+    .slice(1) // rimuovi titolo sezione
+    .filter(line => !/^---\s*$/.test(line)) // rimuovi linee ---
+    .join("\n")
+    .trim();
+}
+
+
+    interpretBtn.addEventListener('click', async () => {
+      cardMarkdown.innerHTML = "";
+
+      for (let card of selectedCards) {
+        const baseName = normalizeFileName(card.name);
+        const markdownFile = baseName + (card.reversed ? "_r.md" : ".md");
+
+        console.log("📄 Carico file:", markdownFile);
+
+        const res = await fetch('/des_a_m_3carte/' + markdownFile);
+        if (!res.ok) {
+          console.error("❌ File non trovato:", markdownFile);
+          cardMarkdown.innerHTML += `<p class="error">File non trovato per ${card.name}</p>`;
+          continue;
+        }
+
+        let mdText = await res.text();
+        console.log("📄 Contenuto originale di", markdownFile, ":\n", mdText);
+
+        const section = extractSection(mdText, card.position);
+        console.log("📄 Sezione estratta per", card.name, ":", section);
+
+        if (!section) {
+          cardMarkdown.innerHTML += `<p class="error">Sezione non trovata per ${card.name}</p>`;
+          continue;
+        }
+
+        cardMarkdown.innerHTML += "<h3>" + card.name + (card.reversed ? " (Rovesciata)" : "") + "</h3>" + marked.parse(section);
+        cardMarkdown.classList.add("visible");
+
+        const spokenText = card.name + (card.reversed ? " rovesciata. " : ". ") + cleanForTTS(section);
+        await playWithAzureTTS(spokenText);
+        await new Promise(resolve => setTimeout(resolve, 1000));
+      }
+
+      resetBtn.style.display = 'inline-block';
+    });
+
+    resetBtn.addEventListener('click', () => {
+      availableCards = [...cards];
+      selectedCards = [];
+      cardMarkdown.innerHTML = "";
+      cardMarkdown.classList.remove("visible");
+      output.textContent = "Premi i pulsanti per iniziare a rivelare le carte.";
+
+      [cardLeft, cardCenter, cardRight].forEach(img => {
+        img.src = "";
+        img.className = "card";
+      });
+
+      btnLeft.disabled = false;
+      btnCenter.disabled = true;
+      btnRight.disabled = true;
+      interpretBtn.style.display = "none";
+      resetBtn.style.display = "none";
+    });
+
+    loadCards();
+  </script>
+</body>
+</html>
