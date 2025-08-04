@@ -237,13 +237,14 @@
     }
 
 // 🔹 Funzione robusta per estrarre la sezione giusta
+// 🔹 Funzione per estrarre solo i paragrafi senza titolo della sezione
 function extractSection(mdText, phase) {
   const sectionMap = { left: "passato", center: "presente", right: "futuro" };
   const keyword = sectionMap[phase];
 
   const normalized = mdText.replace(/\r\n/g, "\n");
 
-  // Trova la sezione dal titolo fino al prossimo titolo o fine file
+  // Trova la sezione dal titolo corretto fino al prossimo titolo o fine file
   const regex = new RegExp(
     `(^|\\n)##\\s*significato\\s+nel\\s+${keyword}[\\s\\S]*?(?=\\n##|$)`,
     "i"
@@ -252,18 +253,22 @@ function extractSection(mdText, phase) {
   const match = normalized.match(regex);
   if (!match) return "";
 
-  return match[0]
+  let section = match[0];
+
+  // 🔹 Rimuove tutte le linee di titolo tipo "## ..." (per sicurezza)
+  section = section.replace(/^##.*$/gim, "");
+
+  // 🔹 Rimuove linee vuote e separatori ---
+  section = section
     .split("\n")
-    .slice(1)                              // rimuove la riga del titolo sezione
     .filter(line => line.trim() !== "" && line.trim() !== "---")
     .join("\n")
     .trim();
+
+  return section;
 }
 
-
-
-
-// 🔹 Gestione click per interpretazione carte
+// 🔹 Blocco interpretazione carte
 interpretBtn.addEventListener('click', async () => {
   cardMarkdown.innerHTML = "";
 
@@ -282,6 +287,7 @@ interpretBtn.addEventListener('click', async () => {
 
     let mdText = await res.text();
 
+    // Evita HTML di fallback (pagina 404)
     if (mdText.startsWith("<!DOCTYPE html>")) {
       console.error("❌ File errato (HTML di fallback) per:", markdownFile);
       cardMarkdown.innerHTML += `<p class="error">File mancante o non valido per ${card.name}</p>`;
@@ -298,20 +304,25 @@ interpretBtn.addEventListener('click', async () => {
       continue;
     }
 
-    // Mostra il nome della carta + testo della sezione
+    // 🔹 Mostra solo il nome della carta e i paragrafi interpretativi
     cardMarkdown.innerHTML +=
       "<h3>" + card.name + (card.reversed ? " (Rovesciata)" : "") + "</h3>" +
       marked.parse(section);
     cardMarkdown.classList.add("visible");
 
-    // Legge solo il nome della carta + il testo della sezione
-    const spokenText = card.name + (card.reversed ? " rovesciata. " : ". ") + cleanForTTS(section);
+    // 🔹 Legge solo nome della carta + paragrafi, senza titoli di sezione
+    const spokenText =
+      card.name +
+      (card.reversed ? " rovesciata. " : ". ") +
+      cleanForTTS(section);
+
     await playWithAzureTTS(spokenText);
     await new Promise(resolve => setTimeout(resolve, 1000));
   }
 
   resetBtn.style.display = 'inline-block';
 });
+
 
 
 
